@@ -119,3 +119,17 @@ A: yeah i know lol how about you make it better by submitting a pull request huh
 Q: guild whitelisting/pokemon whitelisting/spammer doesn't work??!?!?!!?!
 
 A: check out the command reference above. use the toggle commands.
+
+### Edits by xzydrate
+![main bot window](https://i.imgur.com/UBw53lF.png)
+![settings window](https://i.imgur.com/qPaNwfu.png)
+-----
+This is just a UI addon coded in VB.NET. It runs the output of the cmd/powershell in a rich text box and filters the data recieved to highlight different colors based on what the bot is doing. It will also filter your seen/caught into another richtextbox. 
+
+It uses this method to also track how many pokemon you've seen, caught, skipped, failed to catch or which were legendary. As well as export the list of caught/seen to a text file that you can search through with ease.
+
+When the bot is started it also keeps track of its run time, and allows you to edit your config.json file.
+
+The dev button was just so i could see if things worked or didnt work essentially. It does however log the time and which pokemon that may have spawned as legendary to make things easier.
+
+I have been working on fixing the poke.json to include what is missing, however they're not all working and im still continuing to try.
